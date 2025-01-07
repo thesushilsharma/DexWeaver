@@ -1,6 +1,6 @@
 import { Form } from "react-router";
 import { ChevronDown } from 'lucide-react';
-import { networkNames } from "lib/constants/networkName";
+import { networkNames } from "~/lib/constants/networkName";
 export function Hero() {
 
     return (
