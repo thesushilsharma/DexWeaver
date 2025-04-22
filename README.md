@@ -4,8 +4,20 @@ Dex Weaver leverages `oracles of pools` to intelligently detect the DEX a pool b
 ## Roadmap:
 
 - [ ] Add support for more DEXs and blockchain networks.
-- [ ] Implement advanced charting and visualization tools.
+- [ ] Implement advanced charting and visualisation tools.
 - [ ] Develop API endpoints for programmatic access to data.
+
+## Prerequisites
+
+- VS Code or any Code Editor
+- Node.js is installed on your machine
+- Crypto Wallet - Test Account
+
+## Technology Stack
+
+- React Router 7 (Framework)
+- Typescript
+- Tailwind CSS
 
 ## Contributing
 
