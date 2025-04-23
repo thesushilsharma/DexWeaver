@@ -1,6 +1,20 @@
 # DexWeaver - The Pool Whisperer
 Dex Weaver leverages `oracles of pools` to intelligently detect the DEX a pool belongs to and retrieve the token addresses within a specific liquidity pool.
 
+---
+
+## Installation 
+Clone the repository and install dependencies:
+
+```bash
+git clone https://github.com/thesushilsharma/DexWeaver.git
+cd DexWeaver
+npm install
+npm run dev
+```
+
+---
+
 ## Roadmap:
 
 - [ ] Add support for more DEXs and blockchain networks.
