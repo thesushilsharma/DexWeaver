@@ -32,6 +32,7 @@ npm run dev
 - React Router 7 (Framework)
 - Typescript
 - Tailwind CSS
+- Blockchain - Ethereum Base Chain (tenderly sandbox)
 
 ## Known Issues
 - None
