@@ -8,7 +8,7 @@ import {
 } from "react-router";
 
 import type { Route } from "./+types/root";
-import stylesheet from "./app.css?url";
+import "./app.css";
 
 export const links: Route.LinksFunction = () => [
   { rel: "preconnect", href: "https://fonts.googleapis.com" },
@@ -21,7 +21,6 @@ export const links: Route.LinksFunction = () => [
     rel: "stylesheet",
     href: "https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap",
   },
-  { rel: "stylesheet", href: stylesheet },
 ];
 
 export function Layout({ children }: { children: React.ReactNode }) {
@@ -44,18 +43,6 @@ export function Layout({ children }: { children: React.ReactNode }) {
 
 export default function App() {
   return <Outlet />;
-}
-
-export function HydrateFallback() {
-  return (
-    <div className="flex justify-center items-center h-screen">
-      <div className="relative inline-flex">
-        <div className="h-5 w-5 mr-3 bg-sky-500 rounded-full"></div>
-        <div className="h-5 w-5 mr-3 bg-sky-500 rounded-full absolute top-0 left-0 animate-ping"></div>
-        <div className="h-5 w-5 mr-3 bg-sky-500 rounded-full absolute top-0 left-0 animate-pulse"></div>
-      </div>
-    </div>
-  )
 }
 
 export function ErrorBoundary({ error }: Route.ErrorBoundaryProps) {
